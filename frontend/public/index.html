@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <meta name="description" content="Web site created using create-react-app" />
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+  <!-- Bootstrap core CSS -->
+  <link href="%PUBLIC_URL%/assets/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="%PUBLIC_URL%/assets/css/mdb.min.css" rel="stylesheet">
+
+  <title>Our Appstore</title>
+
+</head>
+
+<body>
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <div id="root"></div>
+  <script type="text/javascript" src="%PUBLIC_URL%/assets/js/jquery-3.4.1.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="%PUBLIC_URL%/assets/js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="%PUBLIC_URL%/assets/js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="%PUBLIC_URL%/assets/js/mdb.min.js"></script>
+  <script type="text/javascript">
+    /* WOW.js init */
+    new WOW().init();
+
+    // Tooltips Initialization
+    $(function () {
+      $('[data-toggle="tooltip"]').tooltip();
+      $(".button-collapse").sideNav();
+    })
+
+    // Material Select Initialization
+    $(document).ready(function () {
+      
+      $('.mdb-select').material_select();
+      
+          // SideNav Initialization
+      // if($(".button-collapse")) {
+      //   $(".button-collapse").sideNav();
+      // }
+    });
+
+
+
+
+  </script>
+</body>
+
+</html>
